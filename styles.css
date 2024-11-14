@@ -131,6 +131,16 @@ nav ul li a.active {
     color: #4a2a5a; /* Le texte devient blanc quand on est sur la page dédiée */
     background-color: #f2f2f0;
 }
+.navbar-logo {
+    display: flex;
+    align-items: center; /* Align logo vertically */
+    justify-content: center;
+    height: 50px; /* Set the same height as other menu items */
+}
+
+.navbar-logo img {
+    height: 50px; /* Ensure the logo size is consistent with other elements */
+}
 
 .logo-img {
     transition: filter 0.3s ease;
