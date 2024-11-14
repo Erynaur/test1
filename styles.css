@@ -103,3 +103,56 @@ body {
     font-size: 0.9em;
     line-height: 1.5;
 }
+/* Styles pour la barre de navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5e2a8b; /* Violet */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: white; /* Le texte devient blanc quand on est sur la page dédiée */
+}
+
+.logo-img {
+    transition: filter 0.3s ease;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Si l'utilisateur est sur la page d'accueil, mettre un effet sur le logo */
+body.home .logo-img {
+    filter: brightness(1.2); /* Le logo s'éclaire lorsque nous sommes sur l'accueil */
+}
+
+footer {
+    background-color: #5e2a8b;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+/* On applique un style global pour la page active */
+body.home header nav ul li a.active {
+    background-color: white;
+    color: #5e2a8b; /* Le bouton devient blanc sur la page active */
+}
