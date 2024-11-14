@@ -10,6 +10,51 @@ body {
     color: #4a2a5a;
 }
 
+/* Style de la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4a2a5a;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #6a3a7a;
+}
+
+.logo img {
+    width: 60px; /* Ajustez la taille du logo ici */
+    height: auto;
+}
+
+/* Centrage du logo dans la nav */
+.navbar .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
