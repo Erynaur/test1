@@ -129,6 +129,7 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
     color: #4a2a5a; /* Le texte devient blanc quand on est sur la page dédiée */
+    background-color: #f2f2f0;
 }
 
 .logo-img {
