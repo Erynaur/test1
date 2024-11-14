@@ -18,6 +18,7 @@ body {
     padding: 10px 20px;
     background-color: #f2f2f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .nav-links {
@@ -54,7 +55,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
