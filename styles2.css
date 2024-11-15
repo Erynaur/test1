@@ -135,7 +135,7 @@ a.active {
 }
 
 .image-section-droite img {
-    width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 8px;
 }
@@ -147,7 +147,7 @@ a.active {
 }
 
 .image-section-gauche img {
-    width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 8px;
 }
