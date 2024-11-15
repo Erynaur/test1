@@ -79,15 +79,15 @@ body {
 }
 
 .image-section {
-    width: 400px;
-    flex: 0 0 auto;
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: flex-start; /* Aligne l'image à gauche */
 }
 
 .image-section img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    align-items: flex-start;
 }
 
 /* Triangle violet 
