@@ -95,7 +95,32 @@ a.active {
 
 
 .text-section-gauche p {
-    font-size: 3em;
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.text-section-droite {
+    max-width: 600px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.text-section-droite h2 {
+    font-size: 3.5em;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 243;
+    font-style: bold;
+}
+
+
+.text-section-droite p {
+    font-size: 1.5em;
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
@@ -119,6 +144,18 @@ a.active {
 }
 
 .image-section-droite img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-section-gauche {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: flex-start; /* Aligne l'image à gauche */
+}
+
+.image-section-gauche img {
     width: 100%;
     height: auto;
     border-radius: 8px;
