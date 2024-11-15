@@ -53,9 +53,9 @@ body {
     font-size: 3em;
     letter-spacing: 4px;
     margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 212;
+    font-weight: 243;
     font-style: bold;
 }
 }
@@ -65,6 +65,7 @@ body {
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .text-section button {
