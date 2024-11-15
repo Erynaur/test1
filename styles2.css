@@ -63,29 +63,24 @@ a.active {
 
 
 /*----------CONTENU----------*/
+/* Container des deux sections */
 .main-content {
     max-width: 1600px;
 }
-.contain1 {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-.contain2 {
+
+.contain1, .contain2 {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 
-.text-section-gauche {
+.text-section-gauche, .text-section-droite {
     max-width: 600px;
     flex: 1;
-    margin-right: 10px;
 }
 
-.text-section-gauche h2 {
+.text-section-gauche h2, .text-section-droite h2 {
     font-size: 3.5em;
     letter-spacing: 4px;
     margin-bottom: 20px;
@@ -95,8 +90,7 @@ a.active {
     font-style: bold;
 }
 
-
-.text-section-gauche p {
+.text-section-gauche p, .text-section-droite p {
     font-size: 1.5em;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -104,55 +98,18 @@ a.active {
     font-family: "Source Sans 3", sans-serif;
 }
 
-.text-section-droite {
-    max-width: 600px;
-    flex: 1;
-    margin-right: 10px;
-}
-
-.text-section-droite h2 {
-    font-size: 3.5em;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 243;
-    font-style: bold;
-}
-
-
-.text-section-droite p {
-    font-size: 1.5em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    text-align: justify;
-    font-family: "Source Sans 3", sans-serif;
-}
-
-
-.image-section-droite {
+.image-section-droite, .image-section-gauche {
     flex: 0 0 40%;
     display: flex;
     justify-content: flex-start; /* Aligne l'image à gauche */
 }
 
-.image-section-droite img {
+.image-section-droite img, .image-section-gauche img {
     width: 400px;
     height: auto;
     border-radius: 8px;
 }
 
-.image-section-gauche {
-    flex: 0 0 40%;
-    display: flex;
-    justify-content: flex-start; /* Aligne l'image à gauche */
-}
-
-.image-section-gauche img {
-    width: 400px;
-    height: auto;
-    border-radius: 8px;
-}
 
 /*-------BOUTON--------*/
 
