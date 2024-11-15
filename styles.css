@@ -48,8 +48,13 @@ body {
 
 .text-section h2 {
     font-size: 1.8em;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 212;
+    font-style: normal;
+}
 }
 
 .text-section p {
