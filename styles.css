@@ -38,12 +38,12 @@ body {
 
 .content {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .text-section {
     max-width: 700px;
+    flex: 1;
 }
 
 .text-section h2 {
@@ -75,9 +75,8 @@ body {
 }
 
 .image-section {
-    position: absolute;
     width: 400px;
-    display: flex;
+    flex: 0 0 auto;
 }
 
 .image-section img {
@@ -86,13 +85,13 @@ body {
     border-radius: 8px;
 }
 
-/* Triangle violet */
+/* Triangle violet 
 .triangle {
     position: absolute;
-    /*bottom: 0;
+    bottom: 0;
     right: 0;
     width: 0;
-    height: 0;*/
+    height: 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -100,16 +99,16 @@ body {
     box-sizing: border-box;
     text-align: left;
 }
-
-/* Style du texte à l'intérieur du triangle */
+*/
+/* Style du texte à l'intérieur du triangle 
 .triangle p {
     position: absolute;
     bottom: 10px;
-    left: -130px; /* Ajuste la position horizontale pour centrer dans le triangle */
+    left: -130px;  Ajuste la position horizontale pour centrer dans le triangle 
     margin: 0;
     font-size: 1.9em;
     line-height: 1.5;
-}
+}*/
 
 
             /*--------NAVBARRE---------*/
