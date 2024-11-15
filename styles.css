@@ -116,7 +116,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 0px 20px;
     background-color: #4a2a5a; /* Violet */
 }
 
