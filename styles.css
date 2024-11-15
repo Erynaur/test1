@@ -30,7 +30,7 @@ body {
 }
 
 .maincontent h1 {
-    font-size: 2.5em;
+    font-size: 4em;
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: italic;
@@ -47,7 +47,7 @@ body {
 }
 
 .text-section h2 {
-    font-size: 1.8em;
+    font-size: 3em;
     letter-spacing: 4px;
     margin-bottom: 20px;
     font-family: "Montserrat", sans-serif;
@@ -58,7 +58,7 @@ body {
 }
 
 .text-section p {
-    font-size: 1.1em;
+    font-size: 2em;
     line-height: 1.6;
     margin-bottom: 20px;
 }
