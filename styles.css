@@ -63,6 +63,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1em;
+    align: center;
 }
 
 .image-section {
@@ -103,12 +104,17 @@ body {
     font-size: 0.9em;
     line-height: 1.5;
 }
+
+
+            /*--------NAVBARRE---------*/
+
+
 /* Styles pour la barre de navigation */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
     background-color: #4a2a5a; /* Violet */
 }
 
@@ -126,8 +132,8 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
+ a:hover,
+ a.active {
     color: #4a2a5a; /* Le texte devient blanc quand on est sur la page dédiée */
     background-color: #f2f2f0;
 }
@@ -136,6 +142,7 @@ nav ul li a.active {
     align-items: center; /* Align logo vertically */
     justify-content: center;
     height: 50px; /* Set the same height as other menu items */
+    filter: brightness(1.2); /* Le logo s'éclaire lorsque nous sommes sur l'accueil */
 }
 
 .navbar-logo img {
@@ -150,10 +157,6 @@ nav ul li a.active {
     font-weight: bold;
 }
 
-/* Si l'utilisateur est sur la page d'accueil, mettre un effet sur le logo */
-body.home .logo-img {
-    filter: brightness(1.2); /* Le logo s'éclaire lorsque nous sommes sur l'accueil */
-}
 
 footer {
     background-color: #5e2a8b;
@@ -162,8 +165,4 @@ footer {
     color: white;
 }
 
-/* On applique un style global pour la page active */
-body.home header nav ul li a.active {
-    background-color: #f2f2f0;
-    color: #4a2a5a; /* Le bouton devient blanc sur la page active */
-}
+
