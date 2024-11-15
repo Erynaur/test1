@@ -132,9 +132,9 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
- a:hover,
- a.active {
-    color: #4a2a5a; /* Le texte devient blanc quand on est sur la page dédiée */
+a:hover,
+ nav ul li a.active {
+    color: #4a2a5a; /* Le texte devient blanc quand on est sur la page dédiée ou en faisant défiler le curseur */
     background-color: #f2f2f0;
 }
 .navbar-logo {
