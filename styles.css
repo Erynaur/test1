@@ -129,6 +129,10 @@ nav ul {
     justify-content: center;
     gap: 30px;
 }
+nav ul li {
+    height: 100%; /* Chaque item du menu prend toute la hauteur de la navbar */
+
+}
 
 nav ul li a {
     color: #f2f2f0;
