@@ -155,7 +155,7 @@ nav ul li a {
 
 
 a:hover,
-.a active {
+a.active {
     color: #4a2a5a; /* Le texte devient violet quand on est sur la page dédiée ou en faisant défiler le curseur */
     background-color: #f2f2f0; /*Le BG est blanc comme la page sur la page activ et en faisant défiler le curseur */
 }
