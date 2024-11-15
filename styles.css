@@ -90,31 +90,6 @@ body {
     border-radius: 8px;
 }
 
-/* Triangle violet 
-.triangle {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: left;
-}
-*/
-/* Style du texte à l'intérieur du triangle 
-.triangle p {
-    position: absolute;
-    bottom: 10px;
-    left: -130px;  Ajuste la position horizontale pour centrer dans le triangle 
-    margin: 0;
-    font-size: 1.9em;
-    line-height: 1.5;
-}*/
-
 
             /*--------NAVBARRE---------*/
 
@@ -158,6 +133,7 @@ a:hover,
 a.active {
     color: #4a2a5a; /* Le texte devient violet quand on est sur la page dédiée ou en faisant défiler le curseur */
     background-color: #f2f2f0; /*Le BG est blanc comme la page sur la page activ et en faisant défiler le curseur */
+    text-decoration: none; /* Évite le soulignement */
 }
 .navbar-logo {
     display: flex;
