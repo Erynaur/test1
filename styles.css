@@ -44,13 +44,13 @@ body {
 }
 
 .text-section {
-    max-width: 700px;
+    max-width: 600px;
     flex: 1;
     margin-right: 10px;
 }
 
 .text-section h2 {
-    font-size: 3em;
+    font-size: 3.5em;
     letter-spacing: 4px;
     margin-bottom: 20px;
     font-family: "Source Sans 3", sans-serif;
@@ -61,7 +61,7 @@ body {
 }
 
 .text-section p {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
