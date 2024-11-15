@@ -91,9 +91,6 @@ body {
     right: 0;
     width: 0;
     height: 0;
-    border-left: 150px solid transparent; /* Largeur du triangle */
-    border-top: 150px solid #4a2a5a; /* Couleur et hauteur du triangle */
-    color: white;
     display: flex;
     align-items: flex-end;
     justify-content: center;
