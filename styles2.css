@@ -63,7 +63,9 @@ a.active {
 
 
 /*----------CONTENU----------*/
-
+.main-content {
+    max-width: 1600px;
+}
 .contain1 {
     margin-top: 50px;
     display: flex;
