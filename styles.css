@@ -159,12 +159,12 @@ a:hover,
     align-items: center; /* Align logo vertically */
     justify-content: center;
     height: 50px; /* Set the same height as other menu items */
-    filter: brightness(1.2); /* Le logo s'éclaire lorsque nous sommes sur l'accueil */
+    
 }
 
 
-.logo-img {
-    transition: filter 0.3s ease;
+/*.logo-img {
+    transition: filter 0.3s ease;*/
 }
 
 
