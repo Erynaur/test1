@@ -76,7 +76,8 @@ body {
 
 .image-section {
     position: absolute;
-    width: 500px;
+    width: 400px;
+    display: flex;
 }
 
 .image-section img {
