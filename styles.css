@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+}
+
+
 * {
     margin: 0;
     padding: 0;
