@@ -76,6 +76,7 @@ a.active {
     max-width: 1600px;
     margin: 0 auto;  /* Centrer le contenu horizontalement */
     padding: 0 20px; /* Ajouter un peu de padding pour éviter que le contenu touche les bords */
+    align-items: center; 
 }
 
 /* Centrer le contenu dans contain1 et contain2 */
@@ -118,6 +119,7 @@ a.active {
     border-radius: 5px;
     text-align: center;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .button-link:hover {
