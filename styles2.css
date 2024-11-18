@@ -63,45 +63,33 @@ a.active {
 
 
 /*----------CONTENU----------*/
+
 /* Container des deux sections */
 .main-content {
     max-width: 1600px;
+    margin: 0 auto;  /* Centrer le contenu horizontalement */
+    padding: 0 20px; /* Ajouter un peu de padding pour éviter que le contenu touche les bords */
 }
 
+/* Centrer le contenu dans contain1 et contain2 */
 .contain1, .contain2 {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;  /* Centrer les éléments à l'intérieur de chaque section */
     gap: 10px;
+    width: 100%; /* Assurer que les sections prennent toute la largeur disponible */
 }
 
+/* Réduire la largeur des sections texte et image */
 .text-section-gauche, .text-section-droite {
     max-width: 600px;
     flex: 1;
 }
 
-.text-section-gauche h2, .text-section-droite h2 {
-    font-size: 3.5em;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 243;
-    font-style: bold;
-}
-
-.text-section-gauche p, .text-section-droite p {
-    font-size: 1.5em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    text-align: justify;
-    font-family: "Source Sans 3", sans-serif;
-}
-
 .image-section-droite, .image-section-gauche {
     flex: 0 0 40%;
     display: flex;
-    justify-content: flex-start; /* Aligne l'image à gauche */
+    justify-content: flex-start;
 }
 
 .image-section-droite img, .image-section-gauche img {
@@ -109,6 +97,7 @@ a.active {
     height: auto;
     border-radius: 8px;
 }
+
 
 
 /*-------BOUTON--------*/
