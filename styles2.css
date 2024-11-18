@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +12,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f0;
     color: #4a2a5a;
+    display: flex;
+    flex-direction: column;  /* Organiser les éléments en colonne */
 }
 
             /*--------NAVBARRE---------*/
@@ -66,6 +72,7 @@ a.active {
 
 /* Container des deux sections */
 .main-content {
+    flex: 1;
     max-width: 1600px;
     margin: 0 auto;  /* Centrer le contenu horizontalement */
     padding: 0 20px; /* Ajouter un peu de padding pour éviter que le contenu touche les bords */
@@ -125,4 +132,5 @@ footer {
     text-align: center;
     padding: 10px;
     color: white;
+     margin-top: auto; /* Pousse le footer en bas */
 }
