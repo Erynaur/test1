@@ -1,0 +1,82 @@
+/*--------CSS DE LA PAGE MENTIONS LEGALES---------*/
+
+/* Appliquer flexbox au body pour organiser les éléments verticalement */
+html, body {
+    height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f0;
+    color: #4a2a5a;
+     flex-direction: column;  /* Organiser les éléments en colonne */
+}
+
+            /*--------NAVBARRE---------*/
+
+
+/* Styles pour la barre de navigation */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #4a2a5a; /* Violet */
+}
+
+nav ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li {
+    height: 100%; /* Chaque item du menu prend toute la hauteur de la navbar */
+}
+
+nav ul li a {
+    color: #f2f2f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    transition: color 0.3s ease;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+a:hover,
+a.active {
+    color: #4a2a5a; /* Le texte devient violet quand on est sur la page dédiée ou en faisant défiler le curseur */
+    background-color: #f2f2f0; /*Le BG est blanc comme la page sur la page activ et en faisant défiler le curseur */
+}
+.navbar-logo {
+    display: flex;
+    align-items: center; /* Align logo vertically */
+    justify-content: center;
+    height: 50px; /* Set the same height as other menu items */
+    
+}
+
+
+
+/*------FOOTER------*/
+
+footer {
+    background-color: #4c1f6e;
+    text-align: center;
+    padding: 10px;
+    color: #f2f2f0;
+    margin-top: auto; /* Pousse le footer en bas */
+}
