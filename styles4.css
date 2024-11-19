@@ -184,12 +184,14 @@ h2 {
     background-color: #5e2a8b;
 }
 
-#engagements {
+engagements {
     flex-direction: column;  /* Passe les services en colonne */
     align-items: center; 
+    padding: 30px;              /* Espacement intérieur */
+    margin: 20px;
 }
 
-.div block {
+.div bloc {
     border: none;
     padding: 10px 20px;
     margin: 5px;
