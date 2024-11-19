@@ -147,9 +147,9 @@ form .error {
 /*------FOOTER------*/
 
 footer {
-    background-color: #5e2a8b;
+    background-color: #4c1f6e;
     text-align: center;
     padding: 10px;
-    color: white;
+    color: #f2f2f0;
     margin-top: auto; /* Pousse le footer en bas */
 }
