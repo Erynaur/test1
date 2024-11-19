@@ -186,6 +186,52 @@ form .error {
     }
 }
 
+/*------NOBLEPEAK-CONTACT-----*/
+
+.NoblePeak-contact {
+    background-color: #4a2a5a; /* Couleur de fond violet */
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Adaptation responsive pour les petits écrans */
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-details {
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        margin: 0 auto;
+    }
+}
 
 
 /*------FOOTER------*/
