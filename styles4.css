@@ -1,0 +1,157 @@
+/*--------CSS DE LA PAGE CONTACT---------*/
+
+/* Appliquer flexbox au body pour organiser les éléments verticalement */
+html, body {
+    height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f0;
+    color: #4a2a5a;
+     flex-direction: column;  /* Organiser les éléments en colonne */
+}
+
+            /*--------NAVBARRE---------*/
+
+
+/* Styles pour la barre de navigation */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #4a2a5a; /* Violet */
+}
+
+nav ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li {
+    height: 100%; /* Chaque item du menu prend toute la hauteur de la navbar */
+}
+
+nav ul li a {
+    color: #f2f2f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    transition: color 0.3s ease;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+a:hover,
+a.active {
+    color: #4a2a5a; /* Le texte devient violet quand on est sur la page dédiée ou en faisant défiler le curseur */
+    background-color: #f2f2f0; /*Le BG est blanc comme la page sur la page activ et en faisant défiler le curseur */
+}
+.navbar-logo {
+    display: flex;
+    align-items: center; /* Align logo vertically */
+    justify-content: center;
+    height: 50px; /* Set the same height as other menu items */
+    
+}
+
+/*--------CONTENU--------*/
+
+/* Mise en page globale */
+#services {
+    text-align: center;   /* Centrer les titres et le contenu */
+    padding: 50px 20px;   /* Espacement autour du contenu */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Container des services */
+.service {
+    background-color: #d1c8f2; /* Couleur de fond pour chaque carte */
+    padding: 30px;              /* Espacement intérieur */
+    margin: 20px;               /* Marge entre les cartes */
+    border-radius: 10px;        /* Coins arrondis */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: left;           /* Texte aligné à gauche */
+    flex: 1;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a2a5a;  /* Couleur du texte du titre */
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #4a2a5a;
+    margin-bottom: 20px;
+}
+
+.service .btn {
+    display: inline-block;
+    background-color: #4a2a5a;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.service .btn:hover {
+    background-color: #f2f2f0;
+    color: #4a2a5a;
+}
+
+/* Mise en page avec Flexbox */
+#services {
+    display: flex;
+    justify-content: space-between;  /* Distribue l'espace entre les colonnes */
+    gap: 20px;                      /* Espacement entre les colonnes */
+    flex-wrap: wrap;                 /* Permet à l'affichage de se réorganiser sur les petits écrans */
+}
+
+/* Responsivité : en-dessous de 768px, les cartes doivent être en une seule colonne */
+@media (max-width: 768px) {
+    #services {
+        flex-direction: column;  /* Passe les services en colonne */
+        align-items: center;     /* Centre les services sur l'écran */
+    }
+
+    .service {
+        width: 100%;             /* Assure que chaque service occupe toute la largeur de la page */
+        margin-bottom: 20px;     /* Ajoute un peu d'espace entre les services */
+    }
+}
+
+
+/*------FOOTER------*/
+
+footer {
+    background-color: #4c1f6e;
+    text-align: center;
+    padding: 10px;
+    color: #f2f2f0;
+    margin-top: auto; /* Pousse le footer en bas */
+}
