@@ -184,6 +184,17 @@ h2 {
     background-color: #5e2a8b;
 }
 
+#engagements {
+    flex-direction: column;  /* Passe les services en colonne */
+    align-items: center; 
+}
+
+.div block {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 20%;
+}
 
 /*------FOOTER------*/
 
