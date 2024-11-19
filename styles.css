@@ -2,6 +2,8 @@
 
 html, body {
     height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+    display: flex;  /* Utilisation de flexbox sur le body */
+    flex-direction: column;  /* Organise les éléments en colonne */
 }
 
 
@@ -20,6 +22,7 @@ body {
 
 
 .container {
+    flex: 1; /* Permet au contenu de prendre toute la hauteur restante */
     max-width: 1600px;
     margin: 0 auto;
     padding: 40px;
