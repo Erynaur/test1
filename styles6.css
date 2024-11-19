@@ -3,6 +3,7 @@
 /* Appliquer flexbox au body pour organiser les éléments verticalement */
 html, body {
     height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+    width: 100%;
     display: flex;
 }
 
@@ -16,7 +17,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f0;
     color: #4a2a5a;
-     flex-direction: column;  /* Organiser les éléments en colonne */
+    flex-direction: column;  /* Organiser les éléments en colonne */
+    width: 100%; 
 }
 
             /*--------NAVBARRE---------*/
@@ -74,6 +76,7 @@ a.active {
 
 .main-content {
     flex:1;
+    width: 100%;
     justify-content: center;
     padding: 20px;
 }
@@ -87,4 +90,5 @@ footer {
     padding: 10px;
     color: #f2f2f0;
     margin-top: auto; /* Pousse le footer en bas */
+    width: 100%;
 }
