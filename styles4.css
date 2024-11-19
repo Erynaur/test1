@@ -1,4 +1,4 @@
-/*--------CSS DE LA PAGE CONTACT---------*/
+/*--------CSS DE LA PAGE SERVICES---------*/
 
 /* Appliquer flexbox au body pour organiser les éléments verticalement */
 html, body {
@@ -75,6 +75,8 @@ a.active {
 #services {
     text-align: center;   /* Centrer les titres et le contenu */
     padding: 50px 20px;   /* Espacement autour du contenu */
+    flex: 1;
+    margin: 0 auto;
 }
 
 h2 {
