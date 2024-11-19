@@ -72,6 +72,23 @@ a.active {
 
 /*----------CONTENU----------*/
 
+.h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h2 {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 243;
+  font-style: normal;
+}
+
+.h3 {
+font-style: bold;
+}
+
 /* Container des deux sections */
 .main-content {
     flex: 1;
