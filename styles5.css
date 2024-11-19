@@ -16,7 +16,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f0;
     color: #4a2a5a;
-     flex-direction: column;  /* Organiser les éléments en colonne */
 }
 
             /*--------NAVBARRE---------*/
@@ -75,7 +74,7 @@ a.active {
 .main-content {
     flex:1;
     justify-content: center;
-    gap: 30px;
+    padding: 30px;
 }
 
 /*------FOOTER------*/
