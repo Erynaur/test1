@@ -94,6 +94,7 @@ a.active {
 .text-section-gauche, .text-section-droite {
     max-width: 600px;
     flex: 1;
+    align-items: center; 
 }
 
 .image-section-droite, .image-section-gauche {
