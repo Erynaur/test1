@@ -69,7 +69,13 @@ a.active {
     
 }
 
+/*------CONTENU------*/
 
+.main-content {
+    flex:1;
+    justify-content: center;
+    gap: 30px;
+}
 
 /*------FOOTER------*/
 
