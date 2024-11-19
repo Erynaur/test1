@@ -3,6 +3,8 @@
 /* Appliquer flexbox au body pour organiser les éléments verticalement */
 html, body {
     height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+    display: flex;  /* Utilisation de Flexbox sur le body */
+    flex-direction: column;  /* Organise les éléments en colonne */
 }
 
 * {
@@ -71,6 +73,7 @@ a.active {
 
 /*--------CONTACT--------*/
 .contact {
+    flex: 1;
     padding: 40px 20px;
     margin: 0 auto;
     max-width: 1200px; /* Limite la largeur du conteneur principal */
