@@ -3,6 +3,7 @@
 /* Appliquer flexbox au body pour organiser les éléments verticalement */
 html, body {
     height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+    display: flex;  /* Utilisation de flexbox sur le body */
 }
 
 * {
