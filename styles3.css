@@ -76,25 +76,63 @@ a.active {
 
 form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20 auto;
     display: grid;
     gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 form input, form textarea {
+   width: 100%;
     padding: 10px;
-    width: 100%;
-    border-radius: 5px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    height: 40px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
 }
 
 form button {
-    padding: 10px 20px;
-    background-color: #5e2a8b;
+    background-color: #4a2a5a;
     color: white;
+    padding: 12px 20px;
     border: none;
     border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #4c1f6e;
+}
+
+form .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -10px;
 }
 
 
