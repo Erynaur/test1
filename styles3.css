@@ -69,28 +69,54 @@ a.active {
     
 }
 
-/*--------CONTENU--------*/
-
+/*--------CONTACT--------*/
 .contact {
     padding: 40px 20px;
-    flex: 1;
     margin: 0 auto;
+    max-width: 1200px; /* Limite la largeur du conteneur principal */
 }
 
-.contact-image {
-    max-width: 600px;
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; /* Permet l'ajustement sur les petits écrans */
+}
+
+.text-area {
+    flex: 1; /* Permet à la zone de texte de prendre une largeur flexible */
+    max-width: 45%; /* Limite la largeur de l'image et du texte */
+    text-align: left;
+}
+
+.text-area h2 {
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
+.text-area h3 {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 form {
-    max-width: 600px;
-    margin: 20 auto;
+    max-width: 100%; /* Prendre toute la largeur restante */
     display: grid;
     gap: 10px;
     padding: 20px;
     background-color: #f2f2f0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-top: 0; /* Élimine la marge qui pourrait interférer */
 }
 
 form label {
@@ -101,7 +127,7 @@ form label {
 }
 
 form input, form textarea {
-   width: 100%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -142,6 +168,24 @@ form .error {
     font-size: 0.9rem;
     margin-top: -10px;
 }
+
+/* Responsive: Adapte la mise en page pour les petits écrans */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-area {
+        max-width: 100%; /* Sur petits écrans, l'image et le texte occupent toute la largeur */
+        text-align: center;
+    }
+
+    form {
+        width: 100%; /* Formulaire prend toute la largeur sur petits écrans */
+    }
+}
+
 
 
 /*------FOOTER------*/
