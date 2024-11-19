@@ -1,5 +1,10 @@
 /*--------CSS DE LA PAGE CONTACT---------*/
 
+/* Appliquer flexbox au body pour organiser les éléments verticalement */
+html, body {
+    height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +15,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f0;
     color: #4a2a5a;
+     flex-direction: column;  /* Organiser les éléments en colonne */
 }
 
             /*--------NAVBARRE---------*/
@@ -67,6 +73,8 @@ a.active {
 
 .contact {
     padding: 40px 20px;
+    flex: 1;
+    margin: 0 auto;
 }
 
 .contact-image {
