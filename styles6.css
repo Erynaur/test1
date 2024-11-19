@@ -3,6 +3,7 @@
 /* Appliquer flexbox au body pour organiser les éléments verticalement */
 html, body {
     height: 100%;  /* S'assurer que le body occupe toute la hauteur de la fenêtre */
+    display: flex;
 }
 
 * {
@@ -74,7 +75,7 @@ a.active {
 .main-content {
     flex:1;
     justify-content: center;
-    gap: 30px;
+    padding: 20px;
 }
 
 
