@@ -78,7 +78,7 @@ form {
     max-width: 600px;
     margin: 20 auto;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     background-color: #f2f2f0;
     border-radius: 8px;
@@ -95,7 +95,7 @@ form label {
 form input, form textarea {
    width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
