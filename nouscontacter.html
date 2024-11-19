@@ -32,33 +32,23 @@
         <div class="maincontent">
         <h2>Nous contacter</h2>
         <img src="https://i.postimg.cc/63KGXrFf/pexels-photo-6285127.webp" alt="Consultation" class="contact-image">
-       <form
-  action="https://formspree.io/f/mgveabrr"
-  method="POST"
-        >
-  <label>
-    Prénom:
-    <input type="name" name="nom">
-  </label>
-   <label>
-    Nom:
-    <input type="name" name="prenom">
-  </label>
-            <label>
-    Email:
-    <input type="email" name="email">
-  </label>
-            <label>
-    Téléphone:
-    <input type="number" name="phone">
-  </label>
-  <label>
-    Commentaire:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+      <section class="contact">
+        <h2>Nous contacter</h2>
+        <img src="https://i.postimg.cc/63KGXrFf/pexels-photo-6285127.webp" alt="Consultation" class="contact-image">
+         <form action="https://formspree.io/f/mgveabrr" method="POST">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Smith" required>
+            <label for="surname">Prénom</label>
+            <input type="text" id="surname" name="surname" placeholder="John" required>
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" placeholder="0612345678" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="johnsmith@monmail.com" required>
+            <label for="message">Commentaire</label>
+            <textarea id="message" name="message" placeholder="Mon message"></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
         </div>
 	 
         <footer>
