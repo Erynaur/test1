@@ -184,18 +184,24 @@ h2 {
     background-color: #5e2a8b;
 }
 
-engagements {
+#engagements {
     flex-direction: column;  /* Passe les services en colonne */
     align-items: center; 
     padding: 30px;              /* Espacement intérieur */
     margin: 20px;
 }
 
-.div bloc {
+.bloc {
     border: none;
     padding: 10px 20px;
     margin: 5px;
     width: 20%;
+}
+
+@media (max-width: 768px) {
+    .bloc {
+        flex: 1 1 100%;  /* Sur les petits écrans, chaque bloc prend toute la largeur */
+    }
 }
 
 /*------FOOTER------*/
