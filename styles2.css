@@ -82,12 +82,13 @@ h1 {
 h2 {
   font-family: "Source Sans 3", serif;
   font-optical-sizing: auto;
-  font-weight: 243;
+  font-weight: 300;
   font-style: normal;
 }
 
 h3 {
-font-style: bold;
+    font-family: Arial, sans-serif;
+    font-style: bold;
 }
 
 /* Container des deux sections */
