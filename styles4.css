@@ -185,7 +185,7 @@ h2 {
 }
 
 #engagements {
-    flex-direction: column;  /* Passe les services en colonne */
+    flex-direction: column;  /* Passe les engagements en colonne */
     align-items: center; 
     padding: 30px;              /* Espacement intérieur */
     margin: 20px;
