@@ -185,8 +185,9 @@ h2 {
 }
 
 #engagements {
-    flex-direction: column;  /* Passe les engagements en colonne */
-    align-items: center; 
+    display: flex; /* Active Flexbox pour organiser les éléments en ligne */
+    flex-wrap: wrap; /* Permet aux blocs de passer à la ligne suivante si l'espace est insuffisant */
+    justify-content: space-between; /* Espace égal entre les éléments */
     padding: 30px;              /* Espacement intérieur */
     margin: 20px;
 }
@@ -195,12 +196,14 @@ h2 {
     border: none;
     padding: 10px 20px;
     margin: 5px;
-    width: 20%;
+    width: 30%; /* Chaque bloc prend 30% de la largeur disponible */
+    box-sizing: border-box; /* Inclut padding et bordure dans la largeur totale */
+
 }
 
 @media (max-width: 768px) {
     .bloc {
-        flex: 1 1 100%;  /* Sur les petits écrans, chaque bloc prend toute la largeur */
+        width: 100%;  /* Chaque bloc prend toute la largeur */
     }
 }
 
