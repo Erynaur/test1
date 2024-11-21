@@ -72,6 +72,50 @@ a.active {
     
 }
 
+/* Bouton hamburger (visible uniquement sur les petits écrans) */
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #f2f2f0;
+    border-radius: 5px;
+}
+
+/*----------STYLES POUR PETITS ÉCRANS---------*/
+
+/* Sur les petits écrans, on masque les liens et on affiche le bouton hamburger */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;  /* Masquer les liens par défaut */
+        position: absolute;
+        top: 80px; /* Juste en dessous de la navbar */
+        right: 0;
+        background-color: #4a2a5a;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    /* Afficher le bouton hamburger */
+    .hamburger {
+        display: flex;  /* Afficher le hamburger */
+    }
+
+    /* Lorsque l'on clique sur le hamburger, afficher les liens */
+    .nav-links.show {
+        display: flex;
+    }
+}
 /*------CONTENU------*/
 
 .main-content {
