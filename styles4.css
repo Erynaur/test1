@@ -184,26 +184,29 @@ h2 {
     background-color: #5e2a8b;
 }
 
+/* Section des engagements */
 #engagements {
-    display: flex; /* Active Flexbox pour organiser les éléments en ligne */
-    flex-wrap: wrap; /* Permet aux blocs de passer à la ligne suivante si l'espace est insuffisant */
-    justify-content: space-between; /* Espace égal entre les éléments */
-    padding: 30px;              /* Espacement intérieur */
+    display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
+    justify-content: space-between; /* Espacement égal entre les blocs */
+    padding: 30px;
     margin: 20px;
 }
 
+/* Bloc des engagements */
 .bloc {
     border: none;
     padding: 10px 20px;
     margin: 5px;
-    width: 30%; /* Chaque bloc prend 30% de la largeur disponible */
-    box-sizing: border-box; /* Inclut padding et bordure dans la largeur totale */
-
+    flex-basis: 30%; /* Chaque bloc prend 30% de la largeur disponible */
+    box-sizing: border-box; /* Inclut padding et bordures dans la largeur */
 }
 
+/* Sur les petits écrans, chaque bloc prend 100% de la largeur */
 @media (max-width: 768px) {
     .bloc {
-        width: 100%;  /* Chaque bloc prend toute la largeur */
+        flex-basis: 100%; /* Sur les petits écrans, chaque bloc occupe toute la largeur */
+        margin-bottom: 20px; /* Espacement vertical entre les blocs */
     }
 }
 
