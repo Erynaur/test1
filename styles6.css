@@ -75,15 +75,26 @@ a.active {
 /*------CONTENU------*/
 
 .main-content {
-    flex:1;
-    width: 80%;
-    justify-content: center;
-    padding: 20px;
-    margin: 30px;
+     display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
+    justify-content: space-between; /* Espacement égal entre les blocs */
+    margin-top: 10px;
+    padding: 30px;              /* Espacement intérieur */
+    margin: 20px;
+    background-color: #d1c8f2; /* Couleur de fond pour chaque carte */
+    border-radius: 10px;        /* Coins arrondis */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: left;           /* Texte aligné à gauche */
+    flex: 1;
 }
-h3 {
+
+h2 {
   font-family: "Source Sans 3", serif;
   font-optical-sizing: auto;
+  font-style: bold;
+}
+h3 {
+  font-family: Arial;
   font-style: bold;
 }
 
