@@ -76,7 +76,7 @@ a.active {
     flex: 1;
     padding: 40px 20px;
     margin: 0 auto;
-    max-width: 1200px; /* Limite la largeur du conteneur principal */
+    max-width: 100%; /* Limite la largeur du conteneur principal */
     justify-content: center;  /* Centrer horizontalement */
     align-items: center;
     height: 100vh; 
@@ -87,6 +87,7 @@ a.active {
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
+    width: 100%;
     flex-wrap: wrap; /* Permet l'ajustement sur les petits écrans */
 }
 
@@ -109,6 +110,7 @@ a.active {
 
 form {
     max-width: 100%; /* Prendre toute la largeur restante */
+    max-width: 600px;
     display: grid;
     gap: 5px;
     padding: 5px;
@@ -256,6 +258,23 @@ form .error {
 
 .cookie-banner button:hover {
     background-color: #5e2a8b;
+}
+
+/* Responsive: Adapter la mise en page pour les petits écrans */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column; /* Empile les éléments pour les petits écrans */
+        align-items: center;
+    }
+
+    .text-area {
+        max-width: 100%; /* Sur les petits écrans, la zone de texte occupe toute la largeur */
+        text-align: center;
+    }
+
+    form {
+        width: 100%; /* Le formulaire prendra toute la largeur sur petits écrans */
+    }
 }
 
 /*------FOOTER------*/
