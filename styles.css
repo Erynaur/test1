@@ -28,7 +28,7 @@ body {
     padding: 40px;
     justify-content: center;  /* Centrer horizontalement */
     align-items: center;
-    height: 100vh; 
+    flex-grow: 1;  
 }
 
 .maincontent {
