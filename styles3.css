@@ -106,12 +106,6 @@ a.active {
     margin-bottom: 30px;
 }
 
-.contact-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 form {
     max-width: 100%; /* Prendre toute la largeur restante */
