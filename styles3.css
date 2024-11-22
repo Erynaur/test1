@@ -76,18 +76,19 @@ a.active {
     flex: 1;
     padding: 40px 20px;
     margin: 0 auto;
-    max-width: 100%; /* Limite la largeur du conteneur principal */
-    justify-content: center;  /* Centrer horizontalement */
+    width: 100%; /* S'assurer que le conteneur prend toute la largeur de l'écran */
+    max-width: 1200px; /* Limite la largeur maximale du conteneur principal */
+    justify-content: center;
     align-items: center;
-    height: 100vh; 
+    box-sizing: border-box;
 }
 
 .contact-container {
-    display: flex;
+   display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    width: 100%;
+    width: 100%; /* S'assurer que le conteneur prend toute la largeur */
     flex-wrap: wrap; /* Permet l'ajustement sur les petits écrans */
 }
 
@@ -171,69 +172,25 @@ form .error {
     margin-top: -10px;
 }
 
-/* Responsive: Adapte la mise en page pour les petits écrans */
+/* Responsive: Adapter la mise en page pour les petits écrans */
 @media (max-width: 768px) {
     .contact-container {
-        flex-direction: column;
+        flex-direction: column; /* Empile les éléments pour les petits écrans */
         align-items: center;
     }
 
     .text-area {
-        max-width: 100%; /* Sur petits écrans, l'image et le texte occupent toute la largeur */
+        max-width: 100%; /* Sur les petits écrans, la zone de texte occupe toute la largeur */
         text-align: center;
     }
 
     form {
-        width: 100%; /* Formulaire prend toute la largeur sur petits écrans */
+        width: 100%; /* Le formulaire prendra toute la largeur sur petits écrans */
+        max-width: 100%; /* Le formulaire occupera toute la largeur disponible */
     }
 }
 
-/*------NOBLEPEAK-CONTACT-----*/
 
-.NoblePeak-contact {
-    background-color: #4a2a5a; /* Couleur de fond violet */
-    color: white;
-    padding: 30px 20px;
-    margin-top: 40px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-}
-
-.contact-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.contact-details p {
-    margin: 5px 0;
-    font-size: 1rem;
-}
-
-.logo img {
-    max-width: 150px;
-    height: auto;
-    margin-left: 20px;
-}
-
-/* Adaptation responsive pour les petits écrans */
-@media (max-width: 768px) {
-    .contact-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .contact-details {
-        margin-bottom: 20px;
-    }
-
-    .logo img {
-        margin: 0 auto;
-    }
-}
 
 .cookie-banner {
     position: fixed;
