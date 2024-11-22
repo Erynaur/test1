@@ -110,8 +110,8 @@ a.active {
 form {
     max-width: 100%; /* Prendre toute la largeur restante */
     display: grid;
-    gap: 10px;
-    padding: 20px;
+    gap: 5px;
+    padding: 5px;
     background-color: #f2f2f0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
