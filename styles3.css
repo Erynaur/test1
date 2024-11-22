@@ -111,7 +111,7 @@ a.active {
 
 form {
     max-width: 100%; /* Prendre toute la largeur restante */
-    max-width: 600px;
+    max-width: 900px;
     display: grid;
     gap: 5px;
     padding: 5px;
