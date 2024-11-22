@@ -200,6 +200,10 @@ h2 {
     flex: 1;
 }
 
+.p {
+    text-align: left;
+ }   
+
 /* Bloc des engagements */
 .bloc {
     border: none;
