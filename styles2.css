@@ -87,6 +87,8 @@ h1 {
 
 #main-content {
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 #services {
@@ -213,7 +215,6 @@ h2 {
     max-height: 200px;
     display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
     flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
-    justify-content: space-between; /* Espacement égal entre les blocs */
     margin-top: 10px;
     padding: 30px;              /* Espacement intérieur */
     margin: 20px;
