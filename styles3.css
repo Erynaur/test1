@@ -77,15 +77,14 @@ a.active {
     padding: 40px 20px;
     margin: 0 auto;
     width: 100%; /* S'assurer que le conteneur prend toute la largeur de l'écran */
-    max-width: 1200px; /* Limite la largeur maximale du conteneur principal */
-    justify-content: center;
+    max-width: 1500px; /* Limite la largeur maximale du conteneur principal */
+    /*justify-content: center;*/
     align-items: center;
     box-sizing: border-box;
 }
 
 .contact-container {
    display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     gap: 5px;
     width: 100%; /* S'assurer que le conteneur prend toute la largeur */
