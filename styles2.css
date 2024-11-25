@@ -27,6 +27,7 @@ body {
 /* Styles pour la barre de navigation */
 header {
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
