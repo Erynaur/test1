@@ -85,10 +85,13 @@ h1 {
     color: #4a2a5a;
 }
 
+#main-content {
+    flex: 1;
+}
+
 #services {
     text-align: center;   /* Centrer les titres et le contenu */
     padding: 20px 20px;   /* Espacement autour du contenu */
-    flex: 1;
     margin: 0 auto;
     margin-bottom: none;
 }
