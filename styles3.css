@@ -107,7 +107,10 @@ a.active {
     margin-bottom: 30px;
 }
 
-
+.form-container {
+    width:100%;
+    
+}  
 form {
     max-width: 100%; /* Prendre toute la largeur restante */
     max-width: 900px;
