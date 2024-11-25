@@ -97,6 +97,10 @@ h3 {
   font-style: bold;
 }
 
+a {
+text-decoration: none;
+}
+
 .cookie-banner {
     position: fixed;
     bottom: 0;
