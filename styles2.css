@@ -132,7 +132,7 @@ h2 {
 }
 
 .service .btn {
-    display: inline-block;
+    display: flex;
     background-color: #4a2a5a;
     color: white;
     padding: 12px 30px;
@@ -142,7 +142,7 @@ h2 {
     transition: background-color 0.3s ease;
 }
 .btn {
-    display: inline-block;
+    display: flex;
     background-color: #4a2a5a;
     color: white;
     padding: 12px 30px;
@@ -181,30 +181,6 @@ h2 {
     }
 }
 
-.cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: none;  /* Caché par défaut */
-}
-
-.cookie-banner button {
-    background-color: #4a2a5a;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.cookie-banner button:hover {
-    background-color: #5e2a8b;
-}
 
 /* Section des engagements */
 #engagements {
@@ -229,6 +205,33 @@ h2 {
 .p {
     text-align: left;
  }   
+
+/*-------cookies------*/
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;  /* Caché par défaut */
+}
+
+.cookie-banner button {
+    background-color: #4a2a5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cookie-banner button:hover {
+    background-color: #5e2a8b;
+}
 
 
 /*------FOOTER------*/
