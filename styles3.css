@@ -87,14 +87,14 @@ a.active {
    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
+    gap: 5px;
     width: 100%; /* S'assurer que le conteneur prend toute la largeur */
     flex-wrap: wrap; /* Permet l'ajustement sur les petits écrans */
 }
 
 .text-area {
     flex: 1; /* Permet à la zone de texte de prendre une largeur flexible */
-    max-width: 45%; /* Limite la largeur de l'image et du texte */
+    max-width: 600px; /* Limite la largeur du texte */
     text-align: left;
 }
 
@@ -113,8 +113,8 @@ form {
     max-width: 100%; /* Prendre toute la largeur restante */
     max-width: 900px;
     display: grid;
-    gap: 10px;
-    padding: 10px;
+    gap: 5px;
+    padding: 5px;
     background-color: #f2f2f0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -132,7 +132,7 @@ form label {
 form input, form textarea {
     width: 100%;
     padding: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
@@ -142,7 +142,7 @@ form input, form textarea {
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"] {
-    height: 40px;
+    height: 45px;
 }
 
 form textarea {
