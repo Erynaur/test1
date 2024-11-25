@@ -78,7 +78,7 @@ a.active {
 #main-content {
     margin-top: 10px;
     padding: 30px;              /* Espacement intérieur */
-    margin: 20px;
+    margin: 50px;
     background-color: #d1c8f2; /* Couleur de fond pour chaque carte */
     border-radius: 10px;        /* Coins arrondis */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
