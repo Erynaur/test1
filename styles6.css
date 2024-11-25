@@ -86,6 +86,9 @@ a.active {
     text-align: left;           /* Texte aligné à gauche */
     flex: 1;
 }
+.a {
+text-decoration: none;
+}
 
 h2 {
   font-family: "Source Sans 3", serif;
@@ -97,9 +100,7 @@ h3 {
   font-style: bold;
 }
 
-a {
-text-decoration: none;
-}
+
 
 .cookie-banner {
     position: fixed;
