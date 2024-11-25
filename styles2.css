@@ -85,11 +85,16 @@ h1 {
     font-style: normal;
     color: #4a2a5a;
 }
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
 
 #main-content {
     flex: 1;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
 }
 
 #services {
@@ -97,13 +102,6 @@ h1 {
     padding: 20px 20px;   /* Espacement autour du contenu */
     margin: 0 auto;
     margin-bottom: none;
-}
-
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
 }
 
 /* Container des services */
