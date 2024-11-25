@@ -132,7 +132,7 @@ h2 {
 }
 
 .service .btn {
-    display: flex;
+    display: in-block;
     background-color: #4a2a5a;
     color: white;
     padding: 12px 30px;
@@ -142,7 +142,7 @@ h2 {
     transition: background-color 0.3s ease;
 }
 .btn {
-    display: flex;
+    display: in-block;
     background-color: #4a2a5a;
     color: white;
     padding: 12px 30px;
