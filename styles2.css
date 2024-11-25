@@ -198,6 +198,8 @@ h2 {
 
 /* Section des engagements */
 #engagements {
+    width: 100%;
+    max-width: 800px;
     display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
     flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
     justify-content: space-between; /* Espacement égal entre les blocs */
