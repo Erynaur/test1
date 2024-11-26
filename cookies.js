@@ -1,26 +1,19 @@
+// Vérifiez si l'utilisateur a déjà donné son consentement
+if (!localStorage.getItem("cookiesAccepted")) {
+    // Afficher la bannière si l'utilisateur n'a pas encore accepté ou refusé
+    document.getElementById("cookie-banner").style.display = "block";
+}
+
+// Lorsque l'utilisateur accepte les cookies
 document.getElementById("accept-cookies").addEventListener("click", function() {
     document.getElementById("cookie-banner").style.display = "none";
     localStorage.setItem("cookiesAccepted", "true");
-    // Ajoutez ici la logique pour activer vos cookies
+    // Ajoutez ici le code pour activer vos cookies
 });
 
+// Lorsque l'utilisateur refuse les cookies
 document.getElementById("decline-cookies").addEventListener("click", function() {
     document.getElementById("cookie-banner").style.display = "none";
     localStorage.setItem("cookiesAccepted", "false");
-    // Ajoutez ici la logique pour désactiver vos cookies si nécessaire
+    // Ajoutez ici le code pour ne pas activer les cookies ou désactiver les cookies non essentiels
 });
-
-// Vérification du consentement précédent
-if (localStorage.getItem("cookiesAccepted") === "true") {
-    // Les cookies sont déjà acceptés
-    // Activez les cookies ici si nécessaire
-    document.getElementById("cookie-banner").style.display = "none";
-} else if (localStorage.getItem("cookiesAccepted") === "false") {
-    // Les cookies ont été refusés
-    // Désactivez les cookies ici si nécessaire
-    document.getElementById("cookie-banner").style.display = "none";
-}
-if (localStorage.getItem("cookiesAccepted") === "true") {
-    // Charger Google Analytics ou tout autre service de suivi
-    gtag('config', 'G-QWJKS7VPFC'); // Exemple de Google Analytics
-}
