@@ -239,12 +239,12 @@ a.active {
 @media (max-width: 768px) {
     /* Cacher le menu par défaut sur mobile */
     #navbar-list {
-        display: none;
+        display: none; /* Masque le menu sur mobile par défaut */
         width: 100%;
         flex-direction: column;
         background-color: #4a2a5a;
         position: absolute;
-        top: 50px;
+        top: 50px; /* Positionne le menu sous la barre de navigation */
         left: 0;
         padding: 10px 0;
         z-index: 1000;
@@ -258,12 +258,22 @@ a.active {
 
     /* Quand le menu est actif (visible) */
     #navbar-list.active {
-        display: flex;
+        display: flex; /* Le menu devient visible lorsque 'active' est ajouté */
     }
 
     /* Afficher le bouton hamburger */
     .menu-toggle {
-        display: block;
+        display: block; /* Affiche le bouton hamburger sur mobile */
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* Style du bouton hamburger lorsque visible */
+    .menu-toggle:focus {
+        outline: none;
     }
 }
 
@@ -271,6 +281,7 @@ a.active {
 #navbar-list.active li a {
     padding: 15px;
     font-size: 1.2em;
+    text-align: center;
 }
 
 
