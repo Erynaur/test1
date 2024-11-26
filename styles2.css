@@ -183,9 +183,7 @@ h2 {
 /* Section des engagements */
 #engagements {
     width: 100%;
-    max-width: 900px;
     height: 100%;
-    max-height: 200px;
     align-items: center;
     justify-content: center;
     display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
