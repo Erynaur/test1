@@ -234,6 +234,47 @@ a.active {
     }
 }
 
+/*NAVBARRE PETIT ECRAN */
+
+@media (max-width: 768px) {
+    /* Cacher le menu par défaut sur mobile */
+    #navbar-list {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #4a2a5a;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    /* Afficher les éléments du menu en colonne */
+    #navbar-list li {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Quand le menu est actif (visible) */
+    #navbar-list.active {
+        display: flex;
+    }
+
+    /* Afficher le bouton hamburger */
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/*----- Lorsque le menu est visible, les liens de la navbar sont stylisés autrement */
+#navbar-list.active li a {
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+
+/*------------COOKIES----------*/
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -258,6 +299,7 @@ a.active {
 .cookie-banner button:hover {
     background-color: #5e2a8b;
 }
+
 
 
     /*----------FOOTER----------*/
