@@ -134,7 +134,7 @@ h3 {
 }
 
 
-            /*--------NAVBARRE---------*/
+           /*--------NAVBARRE---------*/
 
 
 /* Styles pour la barre de navigation */
@@ -234,67 +234,7 @@ a.active {
     }
 }
 
-/*NAVBARRE PETIT ECRAN */
 
-/* --------- Adaptations pour les petits écrans --------- */
-@media (max-width: 768px) {
-    /* Cacher le menu par défaut sur mobile */
-    #navbar-list {
-        display: none; /* Masque le menu par défaut sur mobile */
-        width: 100%;
-        flex-direction: column;
-        background-color: #4a2a5a;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        padding: 10px 0;
-        z-index: 1000;
-    }
-
-    /* Afficher les éléments du menu en colonne */
-    #navbar-list li {
-        text-align: center;
-        width: 100%;
-    }
-
-    /* Quand le menu est actif (visible) */
-    #navbar-list.active {
-        display: flex; /* Le menu devient visible lorsque 'active' est ajouté */
-    }
-
-    /* Afficher le bouton hamburger uniquement sur mobile */
-    .menu-toggle {
-        display: block; /* Affiche le bouton hamburger sur mobile */
-        background: transparent;
-        border: none;
-        color: white;
-        font-size: 30px;
-        cursor: pointer;
-    }
-
-    /* Style du bouton hamburger lorsque visible */
-    .menu-toggle:focus {
-        outline: none;
-    }
-}
-
-/* --------- Cacher le bouton hamburger sur les grands écrans --------- */
-@media (min-width: 769px) {
-    .menu-toggle {
-        display: none; /* Cacher le bouton hamburger sur grand écran */
-    }
-
-    nav ul {
-        display: flex; /* Assurer que le menu reste horizontal sur les grands écrans */
-    }
-}
-
-/*----- Lorsque le menu est visible, les liens de la navbar sont stylisés autrement */
-#navbar-list.active li a {
-    padding: 15px;
-    font-size: 1.2em;
-    text-align: center;
-}
 
 /*------------COOKIES----------*/
 .cookie-banner {
