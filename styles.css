@@ -236,7 +236,7 @@ a.active {
 
 
 
-/*------------COOKIES----------*/
+/* ------COOKIES------- */
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -246,7 +246,8 @@ a.active {
     color: white;
     padding: 10px;
     text-align: center;
-    display: none;  /* Caché par défaut */
+    display: block;  /* Assurez-vous que la bannière est visible */
+    z-index: 1000;
 }
 
 .cookie-banner button {
