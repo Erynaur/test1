@@ -190,6 +190,18 @@ h2 {
     justify-content: center;
     display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
     flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
+    flex: 1;
+}
+
+.engagement {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Utilisation de Flexbox pour aligner les blocs horizontalement */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
     margin-top: 10px;
     padding: 30px;              /* Espacement intérieur */
     margin: 20px;
@@ -197,7 +209,6 @@ h2 {
     border-radius: 10px;        /* Coins arrondis */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
     text-align: left;           /* Texte aligné à gauche */
-    flex: 1;
 }
 
 .p {
