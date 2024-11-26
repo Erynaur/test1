@@ -236,6 +236,8 @@ a.active {
 
 /*NAVBARRE PETIT ECRAN */
 
+/* --------- Adaptations pour les petits écrans --------- */
+
 @media (max-width: 768px) {
     /* Cacher le menu par défaut sur mobile */
     #navbar-list {
@@ -277,13 +279,19 @@ a.active {
     }
 }
 
+/* --------- Cacher le bouton hamburger sur les grands écrans --------- */
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none; /* Cacher le bouton hamburger sur grand écran */
+    }
+}
+
 /*----- Lorsque le menu est visible, les liens de la navbar sont stylisés autrement */
 #navbar-list.active li a {
     padding: 15px;
     font-size: 1.2em;
     text-align: center;
 }
-
 
 /*------------COOKIES----------*/
 .cookie-banner {
