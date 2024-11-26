@@ -112,7 +112,6 @@ h2 {
     text-align: left;           /* Texte aligné à gauche */
     flex: 1;
     max-width: 500px;
-    max-height: 400px;
 }
 
 .service h3 {
